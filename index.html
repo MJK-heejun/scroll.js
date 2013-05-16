@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<script src="scroll-v0.2.js" type="text/javascript"></script>
+    <style type="text/css">
+    li{ 
+		display: inline;
+		border: 1px solid black;
+		padding: 1px;
+	}
+	p{
+		margin-bottom: 300px;
+	}
+	</style>
+</head>
+<body>
+
+	<ul>
+		<li onClick="test(0,30)">Click to Scroll To 0</li>
+		<li onClick="test(300,30)">Click to Scroll To 300</li>
+		<li onClick="test(600,30)">Click to Scroll To 600</li>
+		<li onClick="test(900,30)">Click to Scroll To 900</li>
+		<li onClick="test(1200,30)">Click to Scroll To 1200</li>
+		<li onClick="test(1500,30)">Click to Scroll To 1500</li>	
+	</ul>
+
+	<p>0</p>
+	<p>300</p>
+	<p>600</p>
+	<p>900</p>
+	<p>1200</p>
+	<p>1500</p>
+	<p>.</p>
+	<p>.</p>
+
+	<script type="text/javascript">
+		function test(scroll_to, speed){
+			scroll.scrollPage(scroll_to, speed);
+		}
+	</script>
+</body>
+</html>
