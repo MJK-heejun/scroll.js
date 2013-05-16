@@ -1,5 +1,11 @@
 
-Pre-setup
+***	Make your internet browser to auto-scroll the scroll bar for you!!! ***	
+***	Scroll.js is really simple to use. 									***
+
+
+
+
+*** Pre-setup ***
 
 1) Import the "scroll-v0.2.js" file into the html file
 
@@ -10,7 +16,7 @@ e.g.
 
 
 
-How to Use
+*** How to Use ***
 
 1) scroll.scrollPage(your_desired_y_position, scrolling_speed);
 
